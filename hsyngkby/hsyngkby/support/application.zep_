@@ -1,10 +1,14 @@
-    namespace Hsyngkby\Support;
+namespace Hsyngkby\Support;
 
-    use Hsyngkby\Support\Environment\EnvironmentDetector;
-    use Hsyngkby\Support\Helpers;
+use Hsyngkby\Support\Environment\EnvironmentDetector;
+use Hsyngkby\Support\Helpers;
 
-    class Application extends \Phalcon\DI\FactoryDefault
-    {
+class Application
+{
+
+    protected di {
+        set, get
+    };
     protected booted = false {
         set, get
     };
@@ -545,4 +549,4 @@
     {
         return this->setVariable(name, definition);
     }
-    }
+}
