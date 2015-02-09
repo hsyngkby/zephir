@@ -41,6 +41,7 @@ abstract class ServiceProvider
     public function __construct(app)
     {
         let this->app = app;
+        error_log("LOG ServiceProvider __construct");
     }	
 	/**
      * Register the service provider.
@@ -61,6 +62,7 @@ abstract class ServiceProvider
         let _config = this->app["config"]->get(_key, []);
 
         this->app["config"]->set(_key, array_merge(require _path, _config));
+        error_log(print_r(this->app,1));
     }
 
     /**
