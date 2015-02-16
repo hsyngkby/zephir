@@ -1,4 +1,0 @@
-make: Warning: File `/home/vagrant/developer/php/zephir/hsyngkby/ext/hsyngkby/support/serviceprovider.zep.c' has modification time 1.7 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
-make: Warning: File `/home/vagrant/developer/php/zephir/hsyngkby/ext/modules/hsyngkby.la' has modification time 2 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
